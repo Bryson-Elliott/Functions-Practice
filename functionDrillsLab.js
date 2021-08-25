@@ -159,7 +159,7 @@ for (let i = 0; i < arr.length; i++){
 } return arrayEvaluator = answers
 }
 let arrayEvaluator = bigOrSmall(bigOrSmallArray)
-console.log(bigOrSmall(bigOrSmallArray))
+//console.log(bigOrSmall(bigOrSmallArray))
 
 ////////////////// PROBLEM 10 ////////////////////
 let contestants = ['Katniss', 'Peeta', 'Fox-face', 'Glimmer', 'Cato', 'Rue', 'Thresh', 'Clove', 'Marvel']
@@ -178,7 +178,7 @@ function theEliminator(cont1, cont2 ){
   } return cont1
 }
 let newContestants = theEliminator(contestants, loser)
-console.log(newContestants)
+//console.log(newContestants)
 
 ////////////////// PROBLEM 11 ////////////////////
 let sampleString = "Hi, my name is Kylo."
@@ -187,8 +187,10 @@ let sampleString = "Hi, my name is Kylo."
 */
 
 //CODE HERE
-
-
+function upperCase(str){
+  console.log(str.toUpperCase())
+}
+upperCase(sampleString)
 ////////////////// PROBLEM 12 ////////////////////
 /*
   Write a function, naming it whatever you believe to be appropriate, that buys as many chocolate frogs as possible with a certain amount of gold. Each chocolate frog costs 3 gold. Your function should take in a single parameter, which is the amount of gold you are willing to spend. Your function should return a total amount of chocolate frogs you were able to purchase.
@@ -196,7 +198,9 @@ let sampleString = "Hi, my name is Kylo."
 */
 
 //CODE HERE
-
+function chocolateFrog(num){
+  
+}
 
 ////////////////// PROBLEM 13 ////////////////////
 /*
